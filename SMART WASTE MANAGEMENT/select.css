@@ -1,0 +1,151 @@
+.navbar{
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #f9f9f9;
+  z-index: 9;
+}
+
+.nav{
+  padding: 10px 10vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.brand-logo{
+  height: 60px;
+}
+
+.nav-items{
+  display: flex;
+  align-items: center;
+}
+
+.search{
+  width: 500px;
+  display: flex;
+}
+
+.search-box{
+  width: 80%;
+  height: 40px;
+  padding: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border: 1px solid #363333;
+  text-transform: capitalize;
+  background: none;
+  color: #a9a9a9;
+  outline: none;
+}
+
+.search-btn{
+  width: 20%;
+  height: 40px;
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: #383838;
+  color: #fff;
+  text-transform: capitalize;
+  font-size: 15px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.search-box::placeholder{
+  color: #a9a9a9;
+}
+.Under{
+ 
+  display: flex;
+  font-size: 20px;
+  text-transform: capitalize;
+  padding: 0 20px;
+  text-decoration: none;
+  color: #070606;
+  opacity: 1;
+
+}
+
+.nav-items a{
+  margin-left: 20px;
+}
+
+.nav-items a img{
+  width: 30px;
+}
+
+.container {
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.bn632-hover {
+     
+    width: 160px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px;
+    height: 55px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 50px;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+  }
+  
+  .bn632-hover:hover {
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+  }
+  
+  .bn632-hover:focus {
+    outline: none;
+  }
+  
+  .bn632-hover.bn25 {
+    justify-content: center;
+    background-image: linear-gradient(
+      to right,
+      #29323c,
+      #485563,
+      #2b5876,
+      #4e4376
+    );
+    box-shadow: 0 4px 15px 0 rgba(45, 54, 65, 0.75);
+  }
+  button.margin-right {
+    margin-right: 100px;
+  }
+
+  .imagee{
+    height: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+
+
+
+
+
+
+
+  
+ 

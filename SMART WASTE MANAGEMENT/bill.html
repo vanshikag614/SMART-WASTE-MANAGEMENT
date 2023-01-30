@@ -1,0 +1,69 @@
+<link rel="stylesheet" href="bill.css">
+<nav class="navbar">
+    
+   <div class="nav">
+       <img src="C:\Users\vansh\Downloads\WhatsApp Image 2023-01-29 at 5.14.06 PM (1).jpeg" class="brand-logo" alt="">
+       
+       <div class="nav-items">
+           <div class="search">
+               <input type="text" class="search-box" placeholder="enter the type of waste">
+               <button class="search-btn">search</button>
+           
+           </div>
+       </div>
+       
+       <Li><A Href="home.html" Class="Under">Home</A></Li>
+       <Li><A Href="#" Class="Under">About Us</A></Li>
+       <Li><A Href="home.html" Class="Under">LogOut</A></Li>
+   </div>
+</nav>
+<div>
+   
+    <br>
+    <h1>       BILL DETAILS:</h1>
+    
+<div>
+   
+   <div class="box">
+    <table border = "1">
+        
+        <tr>
+           <td style="font-size: 30px;">Customer Name:</td>
+           <td>    <span id="data">  </span>    </td>
+        </tr>
+        
+        <tr>
+           <td style="font-size: 30px;">Category choosen:</td>
+           <td> <span id="data1">  </span></td>
+        </tr>
+        <tr>
+            <td style="font-size: 30px;">Quantity:</td>
+            <td> <span id="data2">  </span></td>
+            
+         </tr>
+         <tr>
+            <td style="font-size: 30px;">Address:</td>
+            <td><span id="data3">  </span> </td>
+         </tr>
+         <tr>
+            <td style="font-size: 30px;">Contact No.:</td>
+            <td> <span id="data4">  </span></td>
+         </tr>
+
+
+
+     </table>
+
+     <h1>THANKS FOR CHOOSING US!</h1>
+     <h2>LETS MAKE THIS WORLD A BETTER PLACE TO LIVE!</h2>
+    </div> 
+    <img src="C:\Users\vansh\Downloads\bill img.webp" class="imagee">
+</div>
+<script>
+    document.getElementById("data").innerHTML=localStorage.getItem("txtValue");
+    document.getElementById("data1").innerHTML=localStorage.getItem("txtValue1");
+    document.getElementById("data2").innerHTML=localStorage.getItem("txtValue2");
+    document.getElementById("data3").innerHTML=localStorage.getItem("txtValue3");
+    document.getElementById("data4").innerHTML=localStorage.getItem("txtValue4");
+</script>
+</div>
